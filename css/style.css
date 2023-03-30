@@ -35,4 +35,7 @@ h2 {
     margin-bottom: 1cm;
  }
 
+ .card:hover{
+    background-color: blueviolet;
+ }
 ;
