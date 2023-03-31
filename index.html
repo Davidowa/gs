@@ -119,38 +119,35 @@
                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                     </div>
                     <div class="modal-body">
-                        <form>
+                        <form target="_blank" action="https://formsubmit.co/hola.gamesmart@gmail.com" method="POST">
                             <div class="mb-3">
                                 <label for="exampleInputPassword1" class="form-label">Nombre</label>
-                                <input type="text" class="form-control" id="exampleInputPassword1">
-                              </div>
-                            <div class="mb-3">
-                              <label for="exampleInputEmail1" class="form-label">Email</label>
-                              <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
-                              <div id="emailHelp" class="form-text">Nunca compartire tus datos con nadie!</div>
+                                <input type="text" class="form-control" placeholder="Nombre completo..." id="exampleInputPassword1" name="name" required>
                             </div>
                             <div class="mb-3">
-                              <label for="exampleInputPassword1" class="form-label">Mensaje</label>
-                              <textarea class="form-control" id="textarea"> </textarea>
-                                
+                                <label for="exampleInputEmail1" class="form-label">Email</label>
+                                <input type="email" class="form-control" placeholder="Email..." id="exampleInputEmail1" name="email" aria-describedby="emailHelp" required>
+                                <div id="emailHelp" class="form-text">¡Nunca se compartiran tus datos con nadie!</div>
+                            </div>
+                            <div class="mb-3">
+                                <label for="exampleMessage1" class="form-label">Mensaje</label>
+                                <textarea class="form-control" placeholder="Tu mensaje..." id="textarea" name="message" rows="10" required> </textarea> 
                             </div>
                             <!--
                             <div class="mb-3 form-check">
-                              <input type="checkbox" class="form-check-input" id="check">
-                              <label class="form-check-label" for="check">Suscribete!</label>
+                                <input type="checkbox" class="form-check-input" id="check" name="Suscribirse">
+                                <label class="form-check-label" for="check">Suscribete!</label>
                             </div>
                             -->
+                            <div class="modal-footer">
+                                <button type="submit button" class="btn btn-primary btn-block" style="background-color: #815AA4 !important;">Enviar</button>
+                            </div>
                         </form>
-                    </div>
-                    <div class="modal-footer">
-                    <button type="button" class="btn btn-primary" style="background-color: #815AA4 !important;">Enviar</button>
                     </div>
                 </div>
                 </div>
             </div>
 
         </div>
-        
-        
     </body>
 </html>
